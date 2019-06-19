@@ -19,7 +19,7 @@ function distanceFromHqInFeet(street){
 
 
 
-function distanceTravelledInFeet(){
+function distanceTravelledInFeet(start, end){
   
   
   
