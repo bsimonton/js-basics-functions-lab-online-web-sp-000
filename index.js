@@ -16,3 +16,13 @@ function distanceFromHqInFeet(street){
   
   
 }
+
+
+
+function distanceTravelledInFeet(){
+  
+  
+  
+  
+  
+}
