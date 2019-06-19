@@ -32,10 +32,11 @@ function calculatesFarePrice(start, end ){
   
   const total_distance = distanceTravelledInFeet(start, end)
   
-  let cost; 
+  let fare; 
   
   switch(total_distance){
-    case (distance <= 400) : cost = 
+    case (distance <= 400) : fare = 0
+    break
     
     
     
