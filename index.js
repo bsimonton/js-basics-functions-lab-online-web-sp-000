@@ -34,7 +34,12 @@ function calculatesFarePrice(start, end ){
   
   let cost; 
   
-  switch(total_distance)
+  switch(total_distance){
+    case 
+    
+    
+    
+  }
   
   
   
