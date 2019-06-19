@@ -35,11 +35,11 @@ function calculatesFarePrice(start, end){
   let fare; 
   
   switch(total_distance){
-    case (distance <= 400) : fare = 0
+    case (total_distance <= 400) : fare = 0
     break;
-    case (distance > 400 && distance <= 2000) : fare = ((diastance -400) * 0.02)
+    case (total_distance > 400 && total_distance <= 2000) : fare = ((total_diastance -400) * 0.02)
     break;
-    case (distance > 2000) : fare = 25
+    case (total_distance > 2000) : fare = 25
     break;
     default : return "cannot travel that far."
     }
