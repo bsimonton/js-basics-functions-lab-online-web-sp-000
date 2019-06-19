@@ -36,7 +36,8 @@ function calculatesFarePrice(start, end ){
   
   switch(total_distance){
     case (distance <= 400) : fare = 0
-    break
+    break;
+    case (distance > 400 && distance <= 2000)
     
     
     
