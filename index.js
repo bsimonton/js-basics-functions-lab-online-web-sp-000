@@ -28,9 +28,9 @@ function distanceTravelledInFeet(start, end){
 }
 
 
-function calculatesFarePrice(){
+function calculatesFarePrice(start, end ){
   
-  
+  const total_distance = 
   
   
 }
