@@ -30,7 +30,13 @@ function distanceTravelledInFeet(start, end){
 
 function calculatesFarePrice(start, end ){
   
-  const total_distance = 
+  const total_distance = distanceTravelledInFeet(start, end)
+  
+  let cost; 
+  
+  
+  
+  
   
   
 }
