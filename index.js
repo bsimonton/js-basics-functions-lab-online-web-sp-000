@@ -37,7 +37,10 @@ function calculatesFarePrice(start, end ){
   switch(total_distance){
     case (distance <= 400) : fare = 0
     break;
-    case (distance > 400 && distance <= 2000) : fare = ((diastance -400) * )
+    case (distance > 400 && distance <= 2000) : fare = ((diastance -400) * 0.02)
+    break;
+    case (distance > 2000) : fare = 25
+    default 
     
     
     
