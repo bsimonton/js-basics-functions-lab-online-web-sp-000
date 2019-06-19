@@ -26,3 +26,11 @@ function distanceTravelledInFeet(start, end){
   
   
 }
+
+
+function calculatesFarePrice(){
+  
+  
+  
+  
+}
