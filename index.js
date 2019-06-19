@@ -41,7 +41,7 @@ function calculatesFarePrice(start, end){
     break;
     case (total_distance > 2000) : fare = 25
     break;
-    default : return "cannot travel that far."
+    default : return "cannot travel that far"
     }
   
   return fare; 
