@@ -28,7 +28,7 @@ function distanceTravelledInFeet(start, end){
 }
 
 
-function calculatesFarePrice(start, end ){
+function calculatesFarePrice(start, end){
   
   const total_distance = distanceTravelledInFeet(start, end)
   
@@ -42,10 +42,7 @@ function calculatesFarePrice(start, end ){
     case (distance > 2000) : fare = 25
     break;
     default : return "cannot travel that far."
-    
-    
-    
-  }
+    }
   
   return fare; 
   
