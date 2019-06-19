@@ -40,13 +40,14 @@ function calculatesFarePrice(start, end ){
     case (distance > 400 && distance <= 2000) : fare = ((diastance -400) * 0.02)
     break;
     case (distance > 2000) : fare = 25
-    default : return 
+    break;
+    default : return "cannot travel that far."
     
     
     
   }
   
-  
+  return fare; 
   
   
 }
